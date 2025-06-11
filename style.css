@@ -235,7 +235,7 @@ i {
 }
 
 .contact h2 {
-    width: 30%;
+    width: 15%;
     border-bottom: crimson 2px solid;
     padding: 15px;
 }
@@ -256,7 +256,7 @@ i {
 }
 
 .button-ok {
-    background-color: crimson;
+    background-color: #dc143c;
     color: white;
     border: none;
     padding: 5px
@@ -299,7 +299,7 @@ footer::before {
     appearance: none;
     width: 6.25em;
     height: 3.125em;
-    background: linear-gradient(to right, #ffd29c 50%, #ffd29c 50%) no-repeat;
+    background: linear-gradient(to right, #ffd2db 50%, #ffd2db 50%) no-repeat;
     background-size: 205%;
     background-position: 0;
     transition: 0.4s;
@@ -316,7 +316,7 @@ footer::before {
     position: absolute;
     top: 0.438em;
     left: 0.438em;
-    background: linear-gradient(to right, #ff8800 50%, #ff8800 50%) no-repeat;
+    background: linear-gradient(to right, #ff4000 50%, #ff4000 50%) no-repeat;
     background-size: 205%;
     background-position: 100%;
     border-radius: 50%;
