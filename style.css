@@ -174,7 +174,7 @@ i {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+
 }
 
 .carousel-item img {
@@ -223,7 +223,7 @@ i {
     color: var(--text-color);
 }
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,12 +240,12 @@ i {
     padding: 15px;
 }
 
-.contact  form {
+.contact form {
     padding: 20px;
     color: var(--text-color);
 }
 
-.form-input{
+.form-input {
     padding: 50px;
     display: flex;
     gap: 12px;
@@ -255,14 +255,14 @@ i {
     align-items: center;
 }
 
-.button-ok{
+.button-ok {
     background-color: crimson;
     color: white;
     border: none;
     padding: 5px
 }
 
-footer{
+footer {
     background-color: rgb(70, 70, 70);
     height: 200px;
     display: flex;
@@ -271,7 +271,7 @@ footer{
     position: relative;
 }
 
-footer::before{
+footer::before {
     content: "";
     position: absolute;
     top: 50px;
@@ -280,59 +280,54 @@ footer::before{
     height: 5px;
     background-color: var(--background-color);
 }
-.logo-footer{
+
+.logo-footer {
     text-align: center;
     margin-bottom: -50px;
 }
 
 .logo-footer h2 {
-    color:white
+    color: white
 }
 
-.droits-footer{
+.droits-footer {
     color: grey
-    
 }
 
 .theme-checkbox {
-  --toggle-size: 6px;
-  appearance: none;
-  width: 6.25em;
-  height: 3.125em;
-  background: linear-gradient(to right, #efefef 50%, #2a2a2a 50%) no-repeat;
-  background-size: 205%;
-  background-position: 0;
-  transition: 0.4s;
-  border-radius: 99em;
-  position: relative;
-  cursor: pointer;
-  font-size: var(--toggle-size);
+    --toggle-size: 6px;
+    appearance: none;
+    width: 6.25em;
+    height: 3.125em;
+    background: linear-gradient(to right, #ffd29c 50%, #ffd29c 50%) no-repeat;
+    background-size: 205%;
+    background-position: 0;
+    transition: 0.4s;
+    border-radius: 99em;
+    position: relative;
+    cursor: pointer;
+    font-size: var(--toggle-size);
 }
 
 .theme-checkbox::before {
-  content: "";
-  width: 2.25em;
-  height: 2.25em;
-  position: absolute;
-  top: 0.438em;
-  left: 0.438em;
-  background: linear-gradient(to right, #efefef 50%, #2a2a2a 50%) no-repeat;
-  background-size: 205%;
-  background-position: 100%;
-  border-radius: 50%;
-  transition: 0.4s;
+    content: "";
+    width: 2.25em;
+    height: 2.25em;
+    position: absolute;
+    top: 0.438em;
+    left: 0.438em;
+    background: linear-gradient(to right, #ff8800 50%, #ff8800 50%) no-repeat;
+    background-size: 205%;
+    background-position: 100%;
+    border-radius: 50%;
+    transition: 0.4s;
 }
 
 .theme-checkbox:checked::before {
-  left: calc(100% - 2.25em - 0.438em);
-  background-position: 0;
+    left: calc(100% - 2.25em - 0.438em);
+    background-position: 0;
 }
 
 .theme-checkbox:checked {
-  background-position: 100%;
+    background-position: 100%;
 }
-
-
-
-
-
