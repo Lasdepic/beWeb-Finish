@@ -9,11 +9,13 @@
 :root {
   --text-color: rgb(70, 70, 70);
   --background-color: white;
+  --border-color: rgb(239, 239, 239);
 }
 
 .dark-theme {
   --text-color: white;
   --background-color: rgb(34, 34, 34);
+  --border-color: rgb(50, 50, 50);
 }
 
 body {
@@ -156,8 +158,8 @@ i {
   position: relative;
   overflow: hidden;
   width: 100%;
-  border-top: solid 50px rgb(239, 239, 239);
-  border-bottom: solid 50px rgb(239, 239, 239);
+  border-top: solid 50px rgb(239, 239, 239) var(--border-color);
+  border-bottom: solid 50px rgb(239, 239, 239) var(--border-color);
 }
 
 .carousel-items {
