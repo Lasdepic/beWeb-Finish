@@ -1,145 +1,161 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Document</title>
-</head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>BeWeb<i>.</i></h1>
+        </div>
+        <div class="lien-nav">
+          <a href="#main-image">Accueil</a>
+          <a href="#steps">Parcours</a>
+          <a href="#possibility">Carrière</a>
+          <a href="#Contact">Contact</a>
+          <input type="checkbox" class="theme-checkbox" id="theme-toggle" />
+        </div>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+          <div class="bg"></div>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <h1>BeWeb<i>.</i></h1>
-      </div>
-      <div class="lien-nav">
-        <a href="#main-image">Accueil</a>
-        <a href="#steps">Parcours</a>
-        <a href="#possibility">Carrière</a>
-        <a href="#Contact">Contact</a>
-        <input type="checkbox" class="theme-checkbox" id="theme-toggle" />
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="main-image" id="main-image">
-      <img class="img1" src="image/main.jpg" alt="image" />
-      <p class="main-text">
-        ORGANISER VOTRE<br />
-        APPRENTISSAGE<br />
-        <i class="mesure">SUR MESURE</i>
-      </p>
-      <button class="button-main" type="button">Par ici</button>
-    </section>
-
-    <section class="steps" id="steps">
-      <div class="step">
-        <img src="image/steps/stylo.png" alt="Stylo" />
-        <h2>Planifier</h2>
-        <p>
-          Confiez-vous vos rêves de réussite : Nous trouverons la formation
-          qui vous comblera vos attentes
+    <main>
+      <section class="main-image" id="main-image">
+        <img class="img1" src="image/main.jpg" alt="image" />
+        <p class="main-text">
+          ORGANISER VOTRE<br />
+          APPRENTISSAGE<br />
+          <i class="mesure">SUR MESURE</i>
         </p>
-      </div>
-      <div class="step">
-        <img src="image/steps/organiser.png" alt="Organiser" />
-        <h2>Organiser</h2>
-        <p>
-          Bènéfier de l'expertise de nos spécialistes de chaque parcours.<br />Ils
-          vous accompagneront dans la réalisation de votre parcours
-        </p>
-      </div>
-      <div class="step">
-        <img src="image/steps/fusé.png" alt="Fusée" />
-        <h2>Développez</h2>
-        <p>
-          Nous nous chargerons de faire en sorte que vous deveniez développeur
-          à travers des projets proches de la réalité.
-        </p>
-      </div>
-    </section>
+        <button class="button-main" type="button">Par ici</button>
+      </section>
 
-    <section class="Caroussel" id="possibility">
-      <div class="carousselBtn">
-        <button id="btn-prev" type="button">&lt;</button>
-        <button id="btn-next" type="button">&gt;</button>
-      </div>
-      <div class="carousel-items" id="caroussel-items">
-        <div class="carousel-item">
-          <img src="image/carouss1.jpg" alt="DWWM Niveau 5" />
-          <div class="carousel-content">
-            <h3>DDWM</h3>
-            <p>
-              Ce diplôme, reconnu au niveau national (Titre de niveau 5
-              équivalent Bac+2), est spécifiquement orienté vers
-              l'apprentissage des compétences fondamentales et avancées en
-              développement web et mobile.
-            </p>
-            <a href="#">Plus d'infos</a>
+      <section class="steps" id="steps">
+        <div class="step">
+          <img src="image/steps/stylo.png" alt="Stylo" />
+          <h2>Planifier</h2>
+          <p>
+            Confiez-vous vos rêves de réussite : Nous trouverons la formation
+            qui vous comblera vos attentes
+          </p>
+        </div>
+        <div class="step">
+          <img src="image/steps/organiser.png" alt="Organiser" />
+          <h2>Organiser</h2>
+          <p>
+            Bènéfier de l'expertise de nos spécialistes de chaque parcours.<br />Ils
+            vous accompagneront dans la réalisation de votre parcours
+          </p>
+        </div>
+        <div class="step">
+          <img src="image/steps/fusé.png" alt="Fusée" />
+          <h2>Développez</h2>
+          <p>
+            Nous nous chargerons de faire en sorte que vous deveniez développeur
+            à travers des projets proches de la réalité.
+          </p>
+        </div>
+      </section>
+
+      <section class="Caroussel" id="possibility">
+        <div class="carousselBtn">
+          <button id="btn-prev" type="button">&lt;</button>
+          <button id="btn-next" type="button">&gt;</button>
+        </div>
+        <div class="carousel-items" id="caroussel-items">
+          <div class="carousel-item">
+            <img src="image/carouss1.jpg" alt="DWWM Niveau 5" />
+            <div class="carousel-content">
+              <h3>DDWM</h3>
+              <p>
+                Ce diplôme, reconnu au niveau national (Titre de niveau 5
+                équivalent Bac+2), est spécifiquement orienté vers
+                l'apprentissage des compétences fondamentales et avancées en
+                développement web et mobile.
+              </p>
+              <a href="#">Plus d'infos</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/carouss2.jpg" alt="CDA Niveau 6" />
+            <div class="carousel-content">
+              <h3>CDA</h3>
+              <p>
+                Le Titre Professionnel Concepteur développeur d'applications
+                (CDA) est une certification professionnelle de niveau 6
+                (équivalent à un BAC +3/4) enregistrée au RNCP (Répertoire
+                National des Certifications Professionnelles) délivrée par le
+                Ministère du Travail, du Plein emploi et de l'Insertion.
+              </p>
+              <a href="#">Plus d'infos</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/carouss3.jpg" alt="TSSR Niveau 5" />
+            <div class="carousel-content">
+              <h3>TSSR</h3>
+              <p>
+                Titre Professionnel de Niveau 5 (équivalent BAC+2) inscrit au
+                RNCP reconnu par l'État et délivré sous l'autorité du Ministère
+                chargé de l'emploi - Éligible au CPF - Accessible par la VAE -
+                Formation à distance possible.
+              </p>
+              <a href="#">Plus d'infos</a>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="image/carouss2.jpg" alt="CDA Niveau 6" />
-          <div class="carousel-content">
-            <h3>CDA</h3>
-            <p>
-              Le Titre Professionnel Concepteur développeur d'applications
-              (CDA) est une certification professionnelle de niveau 6
-              (équivalent à un BAC +3/4) enregistrée au RNCP (Répertoire
-              National des Certifications Professionnelles) délivrée par le
-              Ministère du Travail, du Plein emploi et de l'Insertion.
-            </p>
-            <a href="#">Plus d'infos</a>
+      </section>
+
+      <section class="contact" id="Contact">
+        <h2>Contactez-nous</h2>
+        <p>
+          Chez BeWeb, nous savons qu'apprendre est une aventure humaine mais
+          également un engagement important pour vous. C'est pourquoi nous
+          mettons un poing d'honneur à prendre en compte chacune de vos attentes
+          pour vous aidez dans la préparation de votre apprentissage.
+        </p>
+
+        <form action="#" method="post">
+          <div class="form-input">
+            <label for="name">Nom</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Votre nom"
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Votre email"
+            />
+            <button type="submit" class="button-ok">OK</button>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="image/carouss3.jpg" alt="TSSR Niveau 5" />
-          <div class="carousel-content">
-            <h3>TSSR</h3>
-            <p>
-              Titre Professionnel de Niveau 5 (équivalent BAC+2) inscrit au
-              RNCP reconnu par l'État et délivré sous l'autorité du Ministère
-              chargé de l'emploi - Éligible au CPF - Accessible par la VAE -
-              Formation à distance possible.
-            </p>
-            <a href="#">Plus d'infos</a>
-          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="logo-footer">
+        <h2>BeWeb<i>.</i></h2>
+        <div class="droits-footer">
+          <p>© 2023 BeWeb. Tous droits réservés.</p>
         </div>
       </div>
-    </section>
-
-    <section class="contact" id="Contact">
-      <h2>Contactez-nous</h2>
-      <p>
-        Chez BeWeb, nous savons qu'apprendre est une aventure humaine mais
-        également un engagement important pour vous. C'est pourquoi nous
-        mettons un poing d'honneur à prendre en compte chacune de vos attentes
-        pour vous aidez dans la préparation de votre apprentissage.
-      </p>
-
-      <form action="#" method="post">
-        <div class="form-input">
-          <label for="name">Nom</label>
-          <input type="text" id="name" name="name" required placeholder="Votre nom" />
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required placeholder="Votre email" />
-          <button type="submit" class="button-ok">OK</button>
-        </div>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <div class="logo-footer">
-      <h2>BeWeb<i>.</i></h2>
-      <div class="droits-footer">
-        <p>© 2023 BeWeb. Tous droits réservés.</p>
-      </div>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
-
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
